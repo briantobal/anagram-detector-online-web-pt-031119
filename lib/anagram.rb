@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram 
   attr_accessor :word  
   
@@ -5,11 +6,11 @@ class Anagram
     word = @word 
   end
   
-  def match(word_array)   #takes an array of words         
-  word_array.split("")            #split the words into arrays
-                       #split the arrays into letters
-                       #sort the arrays 
-                       #compare the arrays 
+  def match(word_array)       #takes an array of words         
+    word_array.split("")       #split the words into arrays
+     binding.pry                          #split the arrays into letters
+                              #sort the arrays 
+                               #compare the arrays 
   
   end 
   
