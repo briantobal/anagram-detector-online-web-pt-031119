@@ -10,10 +10,14 @@ class Anagram
     word_array.slice(0,100)       #split the words into arrays
      binding.pry                          #split the arrays into letters
                               #sort the arrays 
-                               #compare the arrays 
+  end                              #compare the arrays 
   
-   array.select {|x| x.split("").sort == @name.split("").sort}
-  end 
+  
+  
+  
+  
+  # array.select {|x| x.split("").sort == @name.split("").sort}
+  
   
   
 end 
