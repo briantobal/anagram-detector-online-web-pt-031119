@@ -6,10 +6,10 @@ class Anagram
   end
   
   def match(word_array)   #takes an array of words         
-                    #split the words into arrays
-                    #split the arrays into letters
-                    #sort the arrays 
-                    #compare the arrays 
+  word_array.split("")            #split the words into arrays
+                       #split the arrays into letters
+                       #sort the arrays 
+                       #compare the arrays 
   
   end 
   
