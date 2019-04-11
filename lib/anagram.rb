@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word_array)       #takes an array of words         
-    word_array.select { }       #split the words into arrays
+    word_array.select {|| }       #split the words into arrays
                             #split the arrays into letters
                               #sort the arrays 
   end                              #compare the arrays 
