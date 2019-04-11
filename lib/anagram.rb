@@ -6,12 +6,13 @@ class Anagram
   end
   
   def match(word_array)   #takes an array of words         
-    
+                    #split the words into arrays
+                    #split the arrays into letters
+                    #sort the arrays 
+                    #compare the arrays 
   
   end 
   
   
 end 
 
-    #compare word w/ word_array 
-    #return all matches in [ ] or if none an empty [ ]
