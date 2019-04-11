@@ -5,12 +5,13 @@ class Anagram
     word = @word 
   end
   
-  def match(word_array)   #takes an array of ana
-    #word_array               
+  def match(word_array)   #takes an array of words         
     
-    
-    #compare word w/ word_array                 #return all matches in [ ] or if none an empty [ ]
+  
   end 
   
   
 end 
+
+    #compare word w/ word_array 
+    #return all matches in [ ] or if none an empty [ ]
